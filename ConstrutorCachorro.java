@@ -8,9 +8,16 @@ package com.mycompany.cachorroprofessor;
  *
  * @author Bruno Stefanello
  */
-public class cachorro {
-  public String nome;
-    public int peso;
-    public String corOlhos;
-    public int quantPatas;   
+class ConstrutorCachorro {
+    private final String nomeCachorro;
+    
+    public ConstrutorCachorro(String nome)
+    {
+        nomeCachorro = nome;
+    }
+    public String getNome()
+    {
+        return "Nome do Cachorro: " + nomeCachorro;
+    }
+    
 }

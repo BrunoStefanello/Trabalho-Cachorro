@@ -8,9 +8,10 @@ package com.mycompany.cachorroprofessor;
  *
  * @author Bruno Stefanello
  */
-public class cachorro {
-  public String nome;
-    public int peso;
-    public String corOlhos;
-    public int quantPatas;   
+public class Construtor {
+    
+    public static void main(String[] args){
+        ConstrutorCachorro cao = new ConstrutorCachorro("Pluto");
+        System.out.println(cao.getNome());
+    }
 }
